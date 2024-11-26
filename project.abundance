@@ -4059,6 +4059,34 @@
                     "uniqueID": 1732595675728,
                     "ioValues": [],
                     "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 0.5264550264550264,
+                    "y": 0.48467966573816157,
+                    "uniqueID": 1732595871542,
+                    "ioValues": [],
+                    "description": "Changes the color of the shape.",
+                    "selectedColorIndex": 7
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.2447089947089947,
+                    "y": 0.5682451253481894,
+                    "uniqueID": 1732595910248,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 6
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 6
+                        }
+                    ],
+                    "description": "Creates a new rectangle."
                 }
             ],
             "allConnectors": [],
