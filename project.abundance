@@ -2720,8 +2720,8 @@
         {
             "atomType": "Molecule",
             "name": "Side Wall",
-            "x": 0.22156084656084654,
-            "y": 0.520891364902507,
+            "x": 0.18386243386243387,
+            "y": 0.40668523676880225,
             "uniqueID": 1732592906612,
             "ioValues": [
                 {
@@ -3317,8 +3317,8 @@
         {
             "atomType": "Rotate",
             "name": "Rotate",
-            "x": 0.39021164021164023,
-            "y": 0.5041782729805014,
+            "x": 0.2923280423280423,
+            "y": 0.3565459610027855,
             "uniqueID": 1732594475850,
             "ioValues": [
                 {
@@ -3343,8 +3343,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.5,
-            "y": 0.3816155988857939,
+            "x": 0.41402116402116407,
+            "y": 0.33147632311977715,
             "uniqueID": 1732594487119,
             "ioValues": [
                 {
@@ -3369,8 +3369,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.5634920634920635,
-            "y": 0.5543175487465182,
+            "x": 0.4411375661375661,
+            "y": 0.45403899721448465,
             "uniqueID": 1732594489979,
             "ioValues": [
                 {
@@ -4026,6 +4026,44 @@
                 }
             ],
             "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 0.6746031746031745,
+            "y": 0.7799442896935932,
+            "uniqueID": 1732595675587,
+            "ioValues": [
+                {
+                    "name": "Wood Thickness",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 1732595675754,
+                    "ioValues": [],
+                    "description": "Connect geometry here to make it available in the next level up. "
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Wood Thickness",
+                    "x": 0.04,
+                    "y": 0.5181058495821727,
+                    "uniqueID": 1732595675728,
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
         }
     ],
     "allConnectors": [
