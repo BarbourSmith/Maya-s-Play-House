@@ -4087,9 +4087,35 @@
                         }
                     ],
                     "description": "Creates a new rectangle."
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.41335978835978837,
+                    "y": 0.6768802228412256,
+                    "uniqueID": 1732596230026,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1732595910248
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negitive. "
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1732595910248,
+                    "ap2ID": 1732596230026
+                }
+            ],
             "fileTypeVersion": 1,
             "compiledBom": {}
         }
