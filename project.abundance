@@ -19,7 +19,12 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1732582436547,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1732582856794
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -43,7 +48,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1732582441224,
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1732593533026
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -2614,7 +2624,12 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1732593826007,
-                            "ioValues": [],
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": 1732594004381
+                                }
+                            ],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -2634,8 +2649,8 @@
                             "uniqueID": 1732593828426,
                             "ioValues": [],
                             "description": "Creates a new text sketch.",
-                            "fontFamily": "ANTON",
-                            "selectedFontIndex": 0
+                            "fontFamily": "AGUAFINA",
+                            "selectedFontIndex": 5
                         },
                         {
                             "atomType": "Extrude",
@@ -2658,8 +2673,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.6302910052910052,
-                            "y": 0.7493036211699164,
+                            "x": 0.5972222222222222,
+                            "y": 0.5793871866295265,
                             "uniqueID": 1732594004381,
                             "ioValues": [
                                 {
