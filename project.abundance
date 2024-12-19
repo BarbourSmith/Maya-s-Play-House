@@ -19,12 +19,7 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1732582436547,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 1732582856794
-                }
-            ],
+            "ioValues": [],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -48,12 +43,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1732582441224,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": 1732593533026
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -1304,8 +1294,8 @@
                         {
                             "atomType": "GitHubMolecule",
                             "name": "Rectangle-Rounded",
-                            "x": 0.29034229828850855,
-                            "y": 0.8213457076566125,
+                            "x": 0.2923280423280423,
+                            "y": 0.818941504178273,
                             "uniqueID": 1734246702533,
                             "ioValues": [
                                 {
@@ -1314,7 +1304,7 @@
                                 },
                                 {
                                     "name": "Height",
-                                    "ioValue": 44
+                                    "ioValue": 44.3
                                 },
                                 {
                                     "name": "Radius",
@@ -1406,7 +1396,7 @@
                                     "ioValues": [
                                         {
                                             "name": "H",
-                                            "ioValue": 44
+                                            "ioValue": 44.3
                                         },
                                         {
                                             "name": "R",
@@ -1433,7 +1423,7 @@
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": 21
+                                            "ioValue": 21.15
                                         },
                                         {
                                             "name": "zDist",
@@ -1488,7 +1478,7 @@
                                     "ioValues": [
                                         {
                                             "name": "H",
-                                            "ioValue": 44
+                                            "ioValue": 44.3
                                         },
                                         {
                                             "name": "R",
@@ -1515,7 +1505,7 @@
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": -21
+                                            "ioValue": -21.15
                                         },
                                         {
                                             "name": "zDist",
@@ -1541,7 +1531,7 @@
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": 21
+                                            "ioValue": 21.15
                                         },
                                         {
                                             "name": "zDist",
@@ -1567,7 +1557,7 @@
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": -21
+                                            "ioValue": -21.15
                                         },
                                         {
                                             "name": "zDist",
@@ -2624,12 +2614,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1732593826007,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": 1732594004381
-                                }
-                            ],
+                            "ioValues": [],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
