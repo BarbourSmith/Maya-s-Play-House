@@ -133,8 +133,8 @@
                 {
                     "atomType": "Color",
                     "name": "Color",
-                    "x": 0.42857142857142855,
-                    "y": 0.16991643454039,
+                    "x": 0.39087301587301587,
+                    "y": 0.14763231197771587,
                     "uniqueID": 1732582656040,
                     "ioValues": [
                         {
@@ -148,8 +148,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.5033068783068783,
-                    "y": 0.37325905292479106,
+                    "x": 0.45238095238095233,
+                    "y": 0.35097493036211697,
                     "uniqueID": 1732582730586,
                     "ioValues": [
                         {
@@ -1520,8 +1520,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.5681216931216931,
-                    "y": 0.5292479108635098,
+                    "x": 0.5813492063492063,
+                    "y": 0.5264623955431754,
                     "uniqueID": 1732592615121,
                     "ioValues": [
                         {
@@ -2262,8 +2262,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.8234126984126985,
-                    "y": 0.21727019498607245,
+                    "x": 0.8015873015873016,
+                    "y": 0.18384401114206128,
                     "uniqueID": 1732593518565,
                     "ioValues": [
                         {
@@ -2288,8 +2288,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.9166666666666667,
-                    "y": 0.22284122562674097,
+                    "x": 0.9219576719576719,
+                    "y": 0.2479108635097493,
                     "uniqueID": 1732593533026,
                     "ioValues": [
                         {
@@ -3081,6 +3081,25 @@
                     "unitsKey": "MM",
                     "fileTypeVersion": 1,
                     "compiledBom": []
+                },
+                {
+                    "atomType": "Tag",
+                    "name": ",cutLayout",
+                    "x": 0.5575396825396826,
+                    "y": 0.20055710306406688,
+                    "uniqueID": 1737499026392,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1732582730586
+                        }
+                    ],
+                    "description": "Tags geometry so that it can be extracted later.",
+                    "tags": [
+                        "",
+                        "cutLayout"
+                    ],
+                    "cutTag": true
                 }
             ],
             "allConnectors": [
@@ -3118,6 +3137,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1732582730586,
                     "ap2ID": 1732592622246
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1732582730586,
+                    "ap2ID": 1737499026392
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -4939,6 +4965,37 @@
             ],
             "fileTypeVersion": 1,
             "compiledBom": {}
+        },
+        {
+            "atomType": "CutLayout",
+            "name": "Cut Layout",
+            "x": 0.7764550264550265,
+            "y": 0.6629526462395543,
+            "uniqueID": 1737498989344,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1732582856794
+                },
+                {
+                    "name": "Material Thickness",
+                    "ioValue": 0.75
+                },
+                {
+                    "name": "Sheet Width",
+                    "ioValue": 96
+                },
+                {
+                    "name": "Sheet Height",
+                    "ioValue": 48
+                },
+                {
+                    "name": "Part Padding",
+                    "ioValue": 0.25
+                }
+            ],
+            "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
+            "placements": []
         }
     ],
     "allConnectors": [
@@ -4976,6 +5033,13 @@
             "ap2Primary": false,
             "ap1ID": 1732582856794,
             "ap2ID": 1732582436547
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1732582856794,
+            "ap2ID": 1737498989344
         },
         {
             "ap1Name": "Geometry",
