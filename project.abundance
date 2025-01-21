@@ -5107,7 +5107,7 @@
                 },
                 {
                     "name": "Resolution (dpi)",
-                    "ioValue": 72
+                    "ioValue": 96
                 },
                 {
                     "name": "Part Name",
