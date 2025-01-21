@@ -1436,7 +1436,7 @@
                         },
                         {
                             "atomType": "Tag",
-                            "name": ",cutLayout",
+                            "name": "",
                             "x": 0.5535714285714286,
                             "y": 0.2562674094707521,
                             "uniqueID": 1737500454622,
@@ -1448,10 +1448,9 @@
                             ],
                             "description": "Tags geometry so that it can be extracted later.",
                             "tags": [
-                                "",
-                                "cutLayout"
+                                ""
                             ],
-                            "cutTag": true
+                            "cutTag": false
                         }
                     ],
                     "allConnectors": [
@@ -5071,29 +5070,59 @@
             "placements": [
                 {
                     "translate": {
-                        "x": 26.225000351667404,
-                        "y": 14.225000381469727
-                    },
-                    "id": 1,
-                    "rotate": 90
-                },
-                {
-                    "translate": {
-                        "x": 52.674556900959395,
-                        "y": 62.22500036867676
-                    },
-                    "id": 2,
-                    "rotate": 90
-                },
-                {
-                    "translate": {
-                        "x": 52.732380128833015,
-                        "y": 0.225000003972435
+                        "x": 26.22499980032444,
+                        "y": -0.16682815551757812
                     },
                     "id": 4,
-                    "rotate": 0
+                    "rotate": 90
+                },
+                {
+                    "translate": {
+                        "x": 26.671020403723908,
+                        "y": -25.844917295654298
+                    },
+                    "id": 3,
+                    "rotate": 270
+                },
+                {
+                    "translate": {
+                        "x": 53.1205769990406,
+                        "y": 24.22500043132324
+                    },
+                    "id": 1,
+                    "rotate": 270
                 }
             ]
+        },
+        {
+            "atomType": "Export",
+            "name": "Export",
+            "x": 0.8981481481481481,
+            "y": 0.7465181058495821,
+            "uniqueID": 1737500660363,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1737498989344
+                },
+                {
+                    "name": "Resolution (dpi)",
+                    "ioValue": 72
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "Parts"
+                },
+                {
+                    "name": "File Type",
+                    "ioValue": "SVG"
+                }
+            ],
+            "description": "Export Atom, let's you choose a type of file to Export.",
+            "type": null,
+            "resolution": 72,
+            "importIndex": 0,
+            "fileName": null
         }
     ],
     "allConnectors": [
@@ -5215,6 +5244,13 @@
             "ap2Primary": true,
             "ap1ID": 1732595443520,
             "ap2ID": 1732595091458
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1737498989344,
+            "ap2ID": 1737500660363
         }
     ],
     "unitsKey": "Inches",
