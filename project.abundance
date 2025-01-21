@@ -2795,6 +2795,24 @@
                         }
                     ],
                     "description": "Subtracts shape two from shape one."
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.06150793650793651,
+                    "y": 0.4735376044568245,
+                    "uniqueID": 1737495860575,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 10
+                        }
+                    ],
+                    "description": "Creates a new rectangle."
                 }
             ],
             "allConnectors": [
