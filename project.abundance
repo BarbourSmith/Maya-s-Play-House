@@ -2520,13 +2520,13 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Rectangle-Rounded",
-                    "x": 0.20238095238095238,
-                    "y": 0.4512534818941504,
+                    "x": 0.2043650793650794,
+                    "y": 0.4428969359331476,
                     "uniqueID": 1737495902307,
                     "ioValues": [
                         {
                             "name": "Width",
-                            "ioValue": 48
+                            "ioValue": 46
                         },
                         {
                             "name": "Height",
@@ -2645,7 +2645,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 22
+                                    "ioValue": 21
                                 },
                                 {
                                     "name": "yDist",
@@ -2685,7 +2685,7 @@
                             "ioValues": [
                                 {
                                     "name": "W",
-                                    "ioValue": 48
+                                    "ioValue": 46
                                 },
                                 {
                                     "name": "R",
@@ -2727,7 +2727,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 22
+                                    "ioValue": 21
                                 },
                                 {
                                     "name": "yDist",
@@ -2753,7 +2753,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": -22
+                                    "ioValue": -21
                                 },
                                 {
                                     "name": "yDist",
@@ -2779,7 +2779,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": -22
+                                    "ioValue": -21
                                 },
                                 {
                                     "name": "yDist",
@@ -2801,7 +2801,7 @@
                             "ioValues": [
                                 {
                                     "name": "W",
-                                    "ioValue": 48
+                                    "ioValue": 46
                                 },
                                 {
                                     "name": "R",
@@ -3079,9 +3079,9 @@
                 },
                 {
                     "atomType": "Tag",
-                    "name": "",
-                    "x": 0.5575396825396826,
-                    "y": 0.20055710306406688,
+                    "name": ",cutLayout",
+                    "x": 0.5548941798941799,
+                    "y": 0.1949860724233983,
                     "uniqueID": 1737499026392,
                     "ioValues": [
                         {
@@ -3091,9 +3091,10 @@
                     ],
                     "description": "Tags geometry so that it can be extracted later.",
                     "tags": [
-                        ""
+                        "",
+                        "cutLayout"
                     ],
-                    "cutTag": false
+                    "cutTag": true
                 },
                 {
                     "atomType": "Tag",
@@ -4000,9 +4001,9 @@
                 },
                 {
                     "atomType": "Tag",
-                    "name": "",
-                    "x": 0.7896825396825398,
-                    "y": 0.6685236768802229,
+                    "name": ",cutLayout",
+                    "x": 0.7863756613756614,
+                    "y": 0.6518105849582172,
                     "uniqueID": 1737500166016,
                     "ioValues": [
                         {
@@ -4012,9 +4013,10 @@
                     ],
                     "description": "Tags geometry so that it can be extracted later.",
                     "tags": [
-                        ""
+                        "",
+                        "cutLayout"
                     ],
-                    "cutTag": false
+                    "cutTag": true
                 }
             ],
             "allConnectors": [
@@ -4782,9 +4784,9 @@
                 },
                 {
                     "atomType": "Tag",
-                    "name": "",
-                    "x": 0.6752645502645503,
-                    "y": 0.6880222841225626,
+                    "name": ",cutLayout",
+                    "x": 0.6759259259259259,
+                    "y": 0.6768802228412256,
                     "uniqueID": 1737500142734,
                     "ioValues": [
                         {
@@ -4794,9 +4796,10 @@
                     ],
                     "description": "Tags geometry so that it can be extracted later.",
                     "tags": [
-                        ""
+                        "",
+                        "cutLayout"
                     ],
-                    "cutTag": false
+                    "cutTag": true
                 }
             ],
             "allConnectors": [
@@ -5038,8 +5041,8 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.7863756613756614,
-            "y": 0.6323119777158774,
+            "x": 0.7876984126984127,
+            "y": 0.6740947075208913,
             "uniqueID": 1737498989344,
             "ioValues": [
                 {
@@ -5064,7 +5067,24 @@
                 }
             ],
             "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
-            "placements": []
+            "placements": [
+                {
+                    "translate": {
+                        "x": 14.225000381469727,
+                        "y": 0.22499999403953552
+                    },
+                    "id": 1,
+                    "rotate": 0
+                },
+                {
+                    "translate": {
+                        "x": 96.7448062956543,
+                        "y": 0.22500000372390747
+                    },
+                    "id": 3,
+                    "rotate": 0
+                }
+            ]
         }
     ],
     "allConnectors": [
