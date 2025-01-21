@@ -3079,7 +3079,7 @@
                 },
                 {
                     "atomType": "Tag",
-                    "name": "cutLayout,",
+                    "name": "",
                     "x": 0.5575396825396826,
                     "y": 0.20055710306406688,
                     "uniqueID": 1737499026392,
@@ -3091,16 +3091,15 @@
                     ],
                     "description": "Tags geometry so that it can be extracted later.",
                     "tags": [
-                        "cutLayout",
                         ""
                     ],
-                    "cutTag": true
+                    "cutTag": false
                 },
                 {
                     "atomType": "Tag",
-                    "name": "cutLayout,",
-                    "x": 0.44841269841269843,
-                    "y": 0.5264623955431754,
+                    "name": "",
+                    "x": 0.4503968253968254,
+                    "y": 0.5181058495821727,
                     "uniqueID": 1737500099278,
                     "ioValues": [
                         {
@@ -3110,10 +3109,9 @@
                     ],
                     "description": "Tags geometry so that it can be extracted later.",
                     "tags": [
-                        "cutLayout",
                         ""
                     ],
-                    "cutTag": true
+                    "cutTag": false
                 }
             ],
             "allConnectors": [
@@ -4002,9 +4000,9 @@
                 },
                 {
                     "atomType": "Tag",
-                    "name": ",cutLayout",
-                    "x": 0.7943121693121694,
-                    "y": 0.6768802228412256,
+                    "name": "",
+                    "x": 0.7896825396825398,
+                    "y": 0.6685236768802229,
                     "uniqueID": 1737500166016,
                     "ioValues": [
                         {
@@ -4014,10 +4012,9 @@
                     ],
                     "description": "Tags geometry so that it can be extracted later.",
                     "tags": [
-                        "",
-                        "cutLayout"
+                        ""
                     ],
-                    "cutTag": true
+                    "cutTag": false
                 }
             ],
             "allConnectors": [
@@ -4785,7 +4782,7 @@
                 },
                 {
                     "atomType": "Tag",
-                    "name": ",cutLayout",
+                    "name": "",
                     "x": 0.6752645502645503,
                     "y": 0.6880222841225626,
                     "uniqueID": 1737500142734,
@@ -4797,10 +4794,9 @@
                     ],
                     "description": "Tags geometry so that it can be extracted later.",
                     "tags": [
-                        "",
-                        "cutLayout"
+                        ""
                     ],
-                    "cutTag": true
+                    "cutTag": false
                 }
             ],
             "allConnectors": [
@@ -5042,8 +5038,8 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.7764550264550265,
-            "y": 0.6629526462395543,
+            "x": 0.7863756613756614,
+            "y": 0.6323119777158774,
             "uniqueID": 1737498989344,
             "ioValues": [
                 {
