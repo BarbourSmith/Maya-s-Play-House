@@ -197,7 +197,7 @@
                             "ioValues": [
                                 {
                                     "name": "number or geometry",
-                                    "ioValue": 1732592568604
+                                    "ioValue": 1737500454622
                                 }
                             ],
                             "description": "Connect geometry here to make it available in the next level up. "
@@ -1436,9 +1436,9 @@
                         },
                         {
                             "atomType": "Tag",
-                            "name": "",
-                            "x": 0.5522486772486772,
-                            "y": 0.23676880222841226,
+                            "name": ",cutLayout",
+                            "x": 0.5535714285714286,
+                            "y": 0.2562674094707521,
                             "uniqueID": 1737500454622,
                             "ioValues": [
                                 {
@@ -1448,9 +1448,10 @@
                             ],
                             "description": "Tags geometry so that it can be extracted later.",
                             "tags": [
-                                ""
+                                "",
+                                "cutLayout"
                             ],
-                            "cutTag": false
+                            "cutTag": true
                         }
                     ],
                     "allConnectors": [
@@ -1504,13 +1505,6 @@
                             "ap2ID": 1732592568604
                         },
                         {
-                            "ap1Name": "geometry",
-                            "ap2Name": "number or geometry",
-                            "ap2Primary": false,
-                            "ap1ID": 1732592568604,
-                            "ap2ID": 1732582867979
-                        },
-                        {
                             "ap1Name": "Geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
@@ -1537,6 +1531,13 @@
                             "ap2Primary": true,
                             "ap1ID": 1737500454622,
                             "ap2ID": 1732592557270
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 1737500454622,
+                            "ap2ID": 1732582867979
                         }
                     ],
                     "fileTypeVersion": 1,
@@ -5042,7 +5043,7 @@
             "atomType": "CutLayout",
             "name": "Cut Layout",
             "x": 0.7876984126984127,
-            "y": 0.6685236768802229,
+            "y": 0.6657381615598886,
             "uniqueID": 1737498989344,
             "ioValues": [
                 {
@@ -5078,11 +5079,19 @@
                 },
                 {
                     "translate": {
-                        "x": 84.67074349602757,
-                        "y": 23.224998465820313
+                        "x": 52.674556900959395,
+                        "y": 62.22500036867676
                     },
-                    "id": 0,
+                    "id": 2,
                     "rotate": 90
+                },
+                {
+                    "translate": {
+                        "x": 52.732380128833015,
+                        "y": 0.225000003972435
+                    },
+                    "id": 4,
+                    "rotate": 0
                 }
             ]
         }
