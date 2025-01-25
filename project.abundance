@@ -3319,8 +3319,8 @@
         {
             "atomType": "Molecule",
             "name": "Side Wall",
-            "x": 0.18584656084656084,
-            "y": 0.41782729805013924,
+            "x": 0.17923280423280424,
+            "y": 0.42896935933147634,
             "uniqueID": 1732592906612,
             "ioValues": [
                 {
@@ -3434,7 +3434,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 19
+                            "ioValue": 18
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -4112,7 +4112,7 @@
                 },
                 {
                     "name": "xDist",
-                    "ioValue": -24
+                    "ioValue": -22.5
                 },
                 {
                     "name": "yDist",
@@ -4138,7 +4138,7 @@
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 24
+                    "ioValue": 22.25
                 },
                 {
                     "name": "yDist",
@@ -4845,8 +4845,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.416005291005291,
-            "y": 0.6991643454038997,
+            "x": 0.36904761904761907,
+            "y": 0.6573816155988859,
             "uniqueID": 1732594771405,
             "ioValues": [
                 {
@@ -4863,7 +4863,7 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 47
+                    "ioValue": 45.5
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
@@ -4871,8 +4871,8 @@
         {
             "atomType": "Rotate",
             "name": "Rotate",
-            "x": 0.2943121693121693,
-            "y": 0.6601671309192201,
+            "x": 0.2374338624338624,
+            "y": 0.6573816155988859,
             "uniqueID": 1732594789455,
             "ioValues": [
                 {
@@ -4885,7 +4885,7 @@
                 },
                 {
                     "name": "y-axis degrees",
-                    "ioValue": -38
+                    "ioValue": -45
                 },
                 {
                     "name": "z-axis degrees",
@@ -4897,8 +4897,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.58679706601467,
-            "y": 0.8074245939675174,
+            "x": 0.39219576719576715,
+            "y": 0.8328690807799443,
             "uniqueID": 1732595091458,
             "ioValues": [
                 {
@@ -4915,7 +4915,7 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 47
+                    "ioValue": 45.5
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
@@ -4923,8 +4923,8 @@
         {
             "atomType": "Rotate",
             "name": "Rotate",
-            "x": 0.3498677248677248,
-            "y": 0.9080779944289693,
+            "x": 0.2691798941798942,
+            "y": 0.8690807799442898,
             "uniqueID": 1732595443520,
             "ioValues": [
                 {
@@ -4937,7 +4937,7 @@
                 },
                 {
                     "name": "y-axis degrees",
-                    "ioValue": 38
+                    "ioValue": 45
                 },
                 {
                     "name": "z-axis degrees",
