@@ -215,8 +215,8 @@
                         {
                             "atomType": "Difference",
                             "name": "Difference",
-                            "x": 0.4424603174603175,
-                            "y": 0.5933147632311978,
+                            "x": 0.4300254452926208,
+                            "y": 0.5117493472584856,
                             "uniqueID": 1732592503441,
                             "ioValues": [
                                 {
@@ -233,8 +233,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.4464285714285714,
-                            "y": 0.3147632311977716,
+                            "x": 0.450381679389313,
+                            "y": 0.3263707571801567,
                             "uniqueID": 1732592514666,
                             "ioValues": [
                                 {
@@ -297,7 +297,7 @@
                             "selectedColorIndex": 7
                         },
                         {
-                            "atomType": "Join",
+                            "atomType": "Assembly",
                             "name": "Assembly",
                             "x": 0.7347883597883599,
                             "y": 0.5487465181058496,
@@ -1569,7 +1569,7 @@
                     "description": "Moves a shape laterally in X, Y, Z."
                 },
                 {
-                    "atomType": "Join",
+                    "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 0.703042328042328,
                     "y": 0.2618384401114206,
@@ -2885,7 +2885,7 @@
                             "description": "Moves a shape laterally in X, Y, Z."
                         },
                         {
-                            "atomType": "Join",
+                            "atomType": "Fusion",
                             "name": "Fusion",
                             "x": 0.5264550264550264,
                             "y": 0.23676880222841226,
@@ -4054,7 +4054,7 @@
             "type": "number"
         },
         {
-            "atomType": "Join",
+            "atomType": "Assembly",
             "name": "Assembly",
             "x": 0.6580687830687831,
             "y": 0.26740947075208915,
