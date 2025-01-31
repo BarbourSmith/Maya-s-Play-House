@@ -22,7 +22,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": 1732582856794
+                    "ioValue": 1738285994509
                 }
             ],
             "description": "Connect geometry here to make it available in the next level up. "
@@ -4054,38 +4054,6 @@
             "type": "number"
         },
         {
-            "atomType": "Assembly",
-            "name": "Assembly",
-            "x": 0.6580687830687831,
-            "y": 0.26740947075208915,
-            "uniqueID": 1732582856794,
-            "ioValues": [
-                {
-                    "name": "Shape 1",
-                    "ioValue": 1732582441997
-                },
-                {
-                    "name": "Shape 2",
-                    "ioValue": 1732594489979
-                },
-                {
-                    "name": "Shape 3",
-                    "ioValue": 1732594487119
-                },
-                {
-                    "name": "Shape 5",
-                    "ioValue": 1732594771405
-                },
-                {
-                    "name": "Shape 6",
-                    "ioValue": 1732595091458
-                }
-            ],
-            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
-            "unionType": "Assembly",
-            "unionIndex": 0
-        },
-        {
             "atomType": "Molecule",
             "name": "Side Wall",
             "x": 0.17923280423280424,
@@ -5718,8 +5686,8 @@
         {
             "atomType": "Molecule",
             "name": "Chimney",
-            "x": 0.6746031746031745,
-            "y": 0.7799442896935932,
+            "x": 0.5568783068783069,
+            "y": 0.8022284122562675,
             "uniqueID": 1732595675587,
             "ioValues": [
                 {
@@ -5808,15 +5776,45 @@
             "compiledBom": {}
         },
         {
-            "atomType": "CutLayout",
-            "name": "Cut Layout",
-            "x": 0.7863756613756614,
-            "y": 0.6657381615598886,
-            "uniqueID": 1737498989344,
+            "atomType": "Export",
+            "name": "Export",
+            "x": 0.8042328042328042,
+            "y": 0.6044568245125348,
+            "uniqueID": 1737500660363,
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": 1732582856794
+                    "ioValue": 1738285957674
+                },
+                {
+                    "name": "Resolution (dpi)",
+                    "ioValue": 96
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "Parts"
+                },
+                {
+                    "name": "File Type",
+                    "ioValue": "SVG"
+                }
+            ],
+            "description": "Export Atom, let's you choose a type of file to Export.",
+            "type": null,
+            "resolution": 72,
+            "importIndex": 0,
+            "fileName": null
+        },
+        {
+            "atomType": "CutLayout",
+            "name": "Cut Layout",
+            "x": 0.6772486772486772,
+            "y": 0.6267409470752089,
+            "uniqueID": 1738285957674,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1738285994509
                 },
                 {
                     "name": "Material Thickness",
@@ -5842,57 +5840,57 @@
                         "x": 0.22499999403953552,
                         "y": 23.225000381469727
                     },
-                    "id": 0,
+                    "id": 4,
                     "rotate": 270
                 },
                 {
                     "translate": {
-                        "x": 85.66957439602757,
-                        "y": 0.30647657001953377
+                        "x": 59.66957420397244,
+                        "y": 11.14352512998047
                     },
-                    "id": 4,
-                    "rotate": 90
+                    "id": 3,
+                    "rotate": 270
                 }
             ]
         },
         {
-            "atomType": "Export",
-            "name": "Export",
-            "x": 0.8981481481481481,
-            "y": 0.7465181058495821,
-            "uniqueID": 1737500660363,
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.6428571428571428,
+            "y": 0.2757660167130919,
+            "uniqueID": 1738285994509,
             "ioValues": [
                 {
-                    "name": "geometry",
-                    "ioValue": 1737498989344
+                    "name": "Shape 3",
+                    "ioValue": 1732594489979
                 },
                 {
-                    "name": "Resolution (dpi)",
-                    "ioValue": 96
+                    "name": "Shape 4",
+                    "ioValue": 1732594487119
                 },
                 {
-                    "name": "Part Name",
-                    "ioValue": "Parts"
+                    "name": "Shape 5",
+                    "ioValue": 1732595091458
                 },
                 {
-                    "name": "File Type",
-                    "ioValue": "SVG"
+                    "name": "Shape 6",
+                    "ioValue": 1732594771405
+                },
+                {
+                    "name": "Shape 7",
+                    "ioValue": 1732582441997
                 }
             ],
-            "description": "Export Atom, let's you choose a type of file to Export.",
-            "type": null,
-            "resolution": 72,
-            "importIndex": 0,
-            "fileName": null
+            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
         }
     ],
     "allConnectors": [
         {
             "ap1Name": "Geometry",
-            "ap2Name": "Shape 1",
+            "ap2Name": "Shape 7",
             "ap2Primary": false,
             "ap1ID": 1732582441997,
-            "ap2ID": 1732582856794
+            "ap2ID": 1738285994509
         },
         {
             "ap1Name": "number or geometry",
@@ -5914,20 +5912,6 @@
             "ap2Primary": false,
             "ap1ID": 1732582744993,
             "ap2ID": 1732594608252
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 1732582856794,
-            "ap2ID": 1732582436547
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 1732582856794,
-            "ap2ID": 1737498989344
         },
         {
             "ap1Name": "Geometry",
@@ -5952,17 +5936,17 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "Shape 3",
+            "ap2Name": "Shape 4",
             "ap2Primary": false,
             "ap1ID": 1732594487119,
-            "ap2ID": 1732582856794
+            "ap2ID": 1738285994509
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "Shape 2",
+            "ap2Name": "Shape 3",
             "ap2Primary": false,
             "ap1ID": 1732594489979,
-            "ap2ID": 1732582856794
+            "ap2ID": 1738285994509
         },
         {
             "ap1Name": "Geometry",
@@ -5980,10 +5964,10 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "Shape 5",
+            "ap2Name": "Shape 6",
             "ap2Primary": false,
             "ap1ID": 1732594771405,
-            "ap2ID": 1732582856794
+            "ap2ID": 1738285994509
         },
         {
             "ap1Name": "geometry",
@@ -5994,10 +5978,10 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "Shape 6",
+            "ap2Name": "Shape 5",
             "ap2Primary": false,
             "ap1ID": 1732595091458,
-            "ap2ID": 1732582856794
+            "ap2ID": 1738285994509
         },
         {
             "ap1Name": "geometry",
@@ -6010,8 +5994,22 @@
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": false,
-            "ap1ID": 1737498989344,
+            "ap1ID": 1738285957674,
             "ap2ID": 1737500660363
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1738285994509,
+            "ap2ID": 1738285957674
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1738285994509,
+            "ap2ID": 1732582436547
         }
     ],
     "unitsKey": "Inches",
