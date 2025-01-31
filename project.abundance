@@ -4056,8 +4056,8 @@
         {
             "atomType": "Molecule",
             "name": "Side Wall",
-            "x": 0.17923280423280424,
-            "y": 0.42896935933147634,
+            "x": 0.18518518518518517,
+            "y": 0.42618384401114207,
             "uniqueID": 1732592906612,
             "ioValues": [
                 {
@@ -4179,8 +4179,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Rectangle-Rounded",
-                    "x": 0.12764550264550265,
-                    "y": 0.4596100278551532,
+                    "x": 0.12566137566137567,
+                    "y": 0.34818941504178275,
                     "uniqueID": 1737497809974,
                     "ioValues": [
                         {
@@ -5808,8 +5808,8 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.6772486772486772,
-            "y": 0.6267409470752089,
+            "x": 0.7182539682539683,
+            "y": 0.5403899721448467,
             "uniqueID": 1738285957674,
             "ioValues": [
                 {
@@ -5838,17 +5838,17 @@
                 {
                     "translate": {
                         "x": 0.22499999403953552,
-                        "y": 23.225000381469727
+                        "y": 22.475000381469727
                     },
-                    "id": 4,
+                    "id": 0,
                     "rotate": 270
                 },
                 {
                     "translate": {
-                        "x": 59.66957420397244,
-                        "y": 11.14352512998047
+                        "x": 26.673610103972436,
+                        "y": 23.225000334179686
                     },
-                    "id": 3,
+                    "id": 4,
                     "rotate": 270
                 }
             ]
@@ -5882,6 +5882,33 @@
                 }
             ],
             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+        },
+        {
+            "atomType": "CutLayout",
+            "name": "Cut Layout",
+            "x": 0.8280423280423281,
+            "y": 0.8356545961002785,
+            "uniqueID": 1738348062381,
+            "ioValues": [
+                {
+                    "name": "Material Thickness",
+                    "ioValue": 0.75
+                },
+                {
+                    "name": "Sheet Width",
+                    "ioValue": 96
+                },
+                {
+                    "name": "Sheet Height",
+                    "ioValue": 48
+                },
+                {
+                    "name": "Part Padding",
+                    "ioValue": 0.25
+                }
+            ],
+            "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
+            "placements": []
         }
     ],
     "allConnectors": [
@@ -5999,17 +6026,17 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 1738285994509,
-            "ap2ID": 1738285957674
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
             "ap1ID": 1738285994509,
             "ap2ID": 1732582436547
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1738285994509,
+            "ap2ID": 1738285957674
         }
     ],
     "unitsKey": "Inches",
