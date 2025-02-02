@@ -5909,6 +5909,42 @@
             ],
             "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
             "placements": []
+        },
+        {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.6507936507936508,
+            "y": 0.8913649025069639,
+            "uniqueID": 1738528681563,
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 10
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Creates a new rectangle."
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.7533068783068784,
+            "y": 0.8913649025069639,
+            "uniqueID": 1738528689879,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1738528681563
+                },
+                {
+                    "name": "height",
+                    "ioValue": 60
+                }
+            ],
+            "description": "Extrudes a 2D shape. Input can be negitive. "
         }
     ],
     "allConnectors": [
@@ -6037,6 +6073,13 @@
             "ap2Primary": false,
             "ap1ID": 1738285994509,
             "ap2ID": 1738285957674
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1738528681563,
+            "ap2ID": 1738528689879
         }
     ],
     "unitsKey": "Inches",
