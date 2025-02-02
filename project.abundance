@@ -30,8 +30,8 @@
         {
             "atomType": "Molecule",
             "name": "Front",
-            "x": 0.2222222222222222,
-            "y": 0.20891364902506962,
+            "x": 0.22486772486772486,
+            "y": 0.20055710306406688,
             "uniqueID": 1732582441997,
             "ioValues": [
                 {
@@ -167,7 +167,7 @@
                     "atomType": "Input",
                     "name": "name1",
                     "x": 0.04,
-                    "y": 0.6545961002785515,
+                    "y": 0.7019498607242339,
                     "uniqueID": 1732582757477,
                     "ioValues": [],
                     "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
