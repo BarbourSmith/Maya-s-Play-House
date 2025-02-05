@@ -3101,12 +3101,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1732593826007,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": 1732594004381
-                                }
-                            ],
+                            "ioValues": [],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -5121,8 +5116,8 @@
         {
             "atomType": "Rotate",
             "name": "Rotate",
-            "x": 0.292989417989418,
-            "y": 0.37604456824512533,
+            "x": 0.2923280423280423,
+            "y": 0.3565459610027855,
             "uniqueID": 1732594475850,
             "ioValues": [
                 {
@@ -5147,8 +5142,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.41203703703703703,
-            "y": 0.298050139275766,
+            "x": 0.41320293398533003,
+            "y": 0.31322505800464034,
             "uniqueID": 1732594487119,
             "ioValues": [
                 {
