@@ -6102,10 +6102,15 @@
         {
             "atomType": "Readme",
             "name": "README",
-            "x": 0.5978835978835979,
-            "y": 0.6740947075208913,
+            "x": 0.5932539682539683,
+            "y": 0.7604456824512534,
             "uniqueID": 1738714495887,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1732595091458
+                }
+            ],
             "description": "A place to put project notes. These will appear in the GitHub readme and in the description of molecules up the chain. Markdown is supported. ",
             "readmeText": "Some test text",
             "global": true
@@ -6209,6 +6214,13 @@
             "ap2Primary": false,
             "ap1ID": 1732595091458,
             "ap2ID": 1738285994509
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1732595091458,
+            "ap2ID": 1738714495887
         },
         {
             "ap1Name": "geometry",
