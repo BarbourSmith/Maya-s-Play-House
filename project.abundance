@@ -3101,12 +3101,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1732593826007,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": 1732594004381
-                                }
-                            ],
+                            "ioValues": [],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -6008,7 +6003,7 @@
                 },
                 {
                     "name": "Part Name",
-                    "ioValue": "Parts"
+                    "ioValue": "Playhouse Parts"
                 },
                 {
                     "name": "File Type",
@@ -6024,8 +6019,8 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.7182539682539683,
-            "y": 0.5403899721448467,
+            "x": 0.7261904761904762,
+            "y": 0.5292479108635098,
             "uniqueID": 1738285957674,
             "ioValues": [
                 {
@@ -6054,18 +6049,18 @@
                 {
                     "translate": {
                         "x": 0.22499999403953552,
-                        "y": 22.475000381469727
+                        "y": 11.143525123596191
                     },
-                    "id": 0,
+                    "id": 3,
                     "rotate": 270
                 },
                 {
                     "translate": {
-                        "x": 26.673610103972436,
-                        "y": 23.225000334179686
+                        "x": 85.66848969602756,
+                        "y": 23.224998465820313
                     },
                     "id": 4,
-                    "rotate": 270
+                    "rotate": 90
                 }
             ]
         },
@@ -6098,22 +6093,6 @@
                 }
             ],
             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
-        },
-        {
-            "atomType": "Readme",
-            "name": "README",
-            "x": 0.5932539682539683,
-            "y": 0.7604456824512534,
-            "uniqueID": 1738714495887,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1732595091458
-                }
-            ],
-            "description": "A place to put project notes. These will appear in the GitHub readme and in the description of molecules up the chain. Markdown is supported. ",
-            "readmeText": "Some test text",
-            "global": true
         }
     ],
     "allConnectors": [
@@ -6214,13 +6193,6 @@
             "ap2Primary": false,
             "ap1ID": 1732595091458,
             "ap2ID": 1738285994509
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 1732595091458,
-            "ap2ID": 1738714495887
         },
         {
             "ap1Name": "geometry",
