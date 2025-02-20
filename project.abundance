@@ -5787,7 +5787,7 @@
                 },
                 {
                     "name": "Part Name",
-                    "ioValue": "Playhouse Parts"
+                    "ioValue": "Playhouse Parts Adjusted"
                 },
                 {
                     "name": "File Type",
@@ -5832,19 +5832,19 @@
             "placements": [
                 {
                     "translate": {
-                        "x": 0.22499999403953552,
-                        "y": 11.143525123596191
-                    },
-                    "id": 3,
-                    "rotate": 270
-                },
-                {
-                    "translate": {
-                        "x": 85.66848969602756,
-                        "y": 23.224998465820313
+                        "x": 59.22101725637913,
+                        "y": 23.224998474121094
                     },
                     "id": 4,
                     "rotate": 90
+                },
+                {
+                    "translate": {
+                        "x": 59.667889103972435,
+                        "y": 37.243522604101564
+                    },
+                    "id": 2,
+                    "rotate": 270
                 }
             ]
         },
