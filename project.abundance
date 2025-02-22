@@ -30,8 +30,8 @@
         {
             "atomType": "Molecule",
             "name": "Front",
-            "x": 0.21626984126984128,
-            "y": 0.16991643454039,
+            "x": 0.208994708994709,
+            "y": 0.1977715877437326,
             "uniqueID": 1732582441997,
             "ioValues": [
                 {
@@ -133,7 +133,7 @@
                 {
                     "atomType": "Color",
                     "name": "Color",
-                    "x": 0.39087301587301587,
+                    "x": 0.38227513227513227,
                     "y": 0.14763231197771587,
                     "uniqueID": 1732582656040,
                     "ioValues": [
@@ -143,7 +143,7 @@
                         }
                     ],
                     "description": "Changes the color of the shape.",
-                    "selectedColorIndex": 7
+                    "selectedColorIndex": 8
                 },
                 {
                     "atomType": "Extrude",
@@ -4209,7 +4209,7 @@
                         }
                     ],
                     "description": "Changes the color of the shape.",
-                    "selectedColorIndex": 7
+                    "selectedColorIndex": 8
                 },
                 {
                     "atomType": "Rotate",
@@ -5044,7 +5044,7 @@
                         }
                     ],
                     "description": "Changes the color of the shape.",
-                    "selectedColorIndex": 7
+                    "selectedColorIndex": 8
                 },
                 {
                     "atomType": "GitHubMolecule",
