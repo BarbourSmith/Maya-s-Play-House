@@ -5884,7 +5884,7 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Molecule",
+            "name": "Corner Angle",
             "x": 0.5396825396825397,
             "y": 0.8412256267409471,
             "uniqueID": 1740236717509,
@@ -6220,8 +6220,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.8525132275132274,
-                    "y": 0.8217270194986073,
+                    "x": 0.8174603174603176,
+                    "y": 0.83008356545961,
                     "uniqueID": 1740237329250,
                     "ioValues": [
                         {
@@ -6242,6 +6242,36 @@
                         }
                     ],
                     "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+                },
+                {
+                    "atomType": "Export",
+                    "name": "Export",
+                    "x": 0.8472222222222222,
+                    "y": 0.3537604456824513,
+                    "uniqueID": 1740268300835,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1740236963024
+                        },
+                        {
+                            "name": "Resolution (dpi)",
+                            "ioValue": 96
+                        },
+                        {
+                            "name": "Part Name",
+                            "ioValue": "Corner Angle"
+                        },
+                        {
+                            "name": "File Type",
+                            "ioValue": "SVG"
+                        }
+                    ],
+                    "description": "Export Atom, let's you choose a type of file to Export.",
+                    "type": null,
+                    "resolution": 96,
+                    "importIndex": 0,
+                    "fileName": null
                 }
             ],
             "allConnectors": [
@@ -6300,6 +6330,13 @@
                     "ap2Primary": true,
                     "ap1ID": 1740236963024,
                     "ap2ID": 1740237329250
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1740236963024,
+                    "ap2ID": 1740268300835
                 },
                 {
                     "ap1Name": "geometry",
