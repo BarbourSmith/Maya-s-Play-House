@@ -6496,7 +6496,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 10
+                            "ioValue": 20
                         },
                         {
                             "name": "yDist",
@@ -6564,8 +6564,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.5330687830687831,
-                    "y": 0.1671309192200557,
+                    "x": 0.5271164021164021,
+                    "y": 0.13370473537604458,
                     "uniqueID": 1741833034384,
                     "ioValues": [
                         {
@@ -6582,7 +6582,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": -4
+                            "ioValue": -5
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -6600,7 +6600,7 @@
                         },
                         {
                             "name": "radius",
-                            "ioValue": 1
+                            "ioValue": 2
                         }
                     ],
                     "description": "Defines a Replicad code block.",
@@ -6664,13 +6664,13 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.509920634920635,
-                    "y": 0.9220055710306407,
+                    "x": 0.5138888888888888,
+                    "y": 0.9415041782729805,
                     "uniqueID": 1741843197124,
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 10
+                            "ioValue": 16
                         },
                         {
                             "name": "y length",
@@ -6682,8 +6682,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.5787037037037037,
-                    "y": 0.7827298050139275,
+                    "x": 0.58994708994709,
+                    "y": 0.7298050139275767,
                     "uniqueID": 1741843252133,
                     "ioValues": [
                         {
@@ -6719,8 +6719,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.6785714285714286,
-                    "y": 0.7799442896935932,
+                    "x": 0.6752645502645503,
+                    "y": 0.8022284122562675,
                     "uniqueID": 1741843273826,
                     "ioValues": [
                         {
@@ -6729,7 +6729,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 5
+                            "ioValue": 10
                         },
                         {
                             "name": "yDist",
@@ -6741,6 +6741,36 @@
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Export",
+                    "name": "Export",
+                    "x": 0.8921957671957672,
+                    "y": 0.7437325905292479,
+                    "uniqueID": 1741843520265,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1741843136567
+                        },
+                        {
+                            "name": "Resolution (dpi)",
+                            "ioValue": 96
+                        },
+                        {
+                            "name": "Part Name",
+                            "ioValue": "Guard"
+                        },
+                        {
+                            "name": "File Type",
+                            "ioValue": "STL"
+                        }
+                    ],
+                    "description": "Export Atom, let's you choose a type of file to Export.",
+                    "type": null,
+                    "resolution": 96,
+                    "importIndex": 0,
+                    "fileName": null
                 }
             ],
             "allConnectors": [
@@ -6813,6 +6843,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1741843136567,
                     "ap2ID": 1741832982138
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1741843136567,
+                    "ap2ID": 1741843520265
                 },
                 {
                     "ap1Name": "geometry",
