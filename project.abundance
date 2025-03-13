@@ -6576,8 +6576,8 @@
                 {
                     "atomType": "Code",
                     "name": "Code",
-                    "x": 0.7129629629629629,
-                    "y": 0.17548746518105848,
+                    "x": 0.71494708994709,
+                    "y": 0.20612813370473537,
                     "uniqueID": 1741843082600,
                     "ioValues": [
                         {
@@ -6915,8 +6915,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Latch Side",
-                    "x": 0.34788359788359785,
-                    "y": 0.67966573816156,
+                    "x": 0.3531746031746032,
+                    "y": 0.6935933147632313,
                     "uniqueID": 1741843586024,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -6928,14 +6928,19 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1741843586326,
-                            "ioValues": [],
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": 1741843784664
+                                }
+                            ],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
                             "atomType": "Circle",
                             "name": "Circle",
-                            "x": 0.12962962962962962,
-                            "y": 0.35097493036211697,
+                            "x": 0.07275132275132275,
+                            "y": 0.2841225626740947,
                             "uniqueID": 1741843623752,
                             "ioValues": [
                                 {
@@ -6948,13 +6953,13 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.28240740740740744,
-                            "y": 0.44568245125348194,
+                            "x": 0.294973544973545,
+                            "y": 0.2757660167130919,
                             "uniqueID": 1741843630603,
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": 1741843623752
+                                    "ioValue": 1741843923086
                                 },
                                 {
                                     "name": "height",
@@ -6966,8 +6971,8 @@
                         {
                             "atomType": "Rotate",
                             "name": "Rotate",
-                            "x": 0.41931216931216936,
-                            "y": 0.5264623955431754,
+                            "x": 0.3783068783068783,
+                            "y": 0.25348189415041783,
                             "uniqueID": 1741843661473,
                             "ioValues": [
                                 {
@@ -6993,7 +6998,7 @@
                             "atomType": "Move",
                             "name": "Move",
                             "x": 0.5370370370370371,
-                            "y": 0.3788300835654596,
+                            "y": 0.20055710306406688,
                             "uniqueID": 1741843673716,
                             "ioValues": [
                                 {
@@ -7002,11 +7007,130 @@
                                 },
                                 {
                                     "name": "xDist",
+                                    "ioValue": 7
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 2.5
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 6
+                                }
+                            ],
+                            "description": "Moves a shape laterally in X, Y, Z."
+                        },
+                        {
+                            "atomType": "Rectangle",
+                            "name": "Rectangle",
+                            "x": 0.4312169312169312,
+                            "y": 0.7158774373259054,
+                            "uniqueID": 1741843717231,
+                            "ioValues": [
+                                {
+                                    "name": "x length",
+                                    "ioValue": 25
+                                },
+                                {
+                                    "name": "y length",
+                                    "ioValue": 25
+                                }
+                            ],
+                            "description": "Creates a new rectangle."
+                        },
+                        {
+                            "atomType": "Extrude",
+                            "name": "Extrude",
+                            "x": 0.5562169312169313,
+                            "y": 0.7325905292479109,
+                            "uniqueID": 1741843747314,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": 1741843717231
+                                },
+                                {
+                                    "name": "height",
+                                    "ioValue": 2
+                                }
+                            ],
+                            "description": "Extrudes a 2D shape. Input can be negitive. "
+                        },
+                        {
+                            "atomType": "Fusion",
+                            "name": "Fusion",
+                            "x": 0.6164021164021164,
+                            "y": 0.41225626740947074,
+                            "uniqueID": 1741843784664,
+                            "ioValues": [
+                                {
+                                    "name": "Shape 1",
+                                    "ioValue": 1741843747314
+                                },
+                                {
+                                    "name": "Shape 2",
+                                    "ioValue": 1741843673716
+                                }
+                            ],
+                            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
+                            "unionType": "Fusion"
+                        },
+                        {
+                            "atomType": "Code",
+                            "name": "Code",
+                            "x": 0.7731481481481481,
+                            "y": 0.298050139275766,
+                            "uniqueID": 1741843867438,
+                            "ioValues": [
+                                {
+                                    "name": "inputShape",
+                                    "ioValue": 1741843784664
+                                },
+                                {
+                                    "name": "radius",
+                                    "ioValue": 2
+                                }
+                            ],
+                            "description": "Defines a Replicad code block.",
+                            "codeVersion": 1,
+                            "code": " \n      //Inputs:[inputShape, radius]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n      \n      //Takes the address and gets the shape from the library\n      let importedShape = library[inputShape]\n      \n      //This makes a new copy of of the shape (to prevent garbage collection issues),\n      //and moves it in the X direction. Note that this will not work if the input is an assembly\n      let movedShape = importedShape.geometry[0].clone().fillet(radius)\n      \n      //Console.log works for debugging to better see what is happening under the hood\n      console.log(\"Shape:\")\n      console.log(importedShape);\n      \n      //Shapes stored in the library have tags, a color, a plane, and a bill of materials like this. We don't modify them here\n      let shape1 = {\n        geometry: [movedShape],\n        tags: importedShape.tags,\n        color: importedShape.color,\n        plane: importedShape.plane,\n        bom: importedShape.bom\n      }\n      \n      //We could at this point return shape1 as a complete shape and it will be automatically written to the library for us\n      return shape1\n      "
+                        },
+                        {
+                            "atomType": "Rectangle",
+                            "name": "Rectangle",
+                            "x": 0.1078042328042328,
+                            "y": 0.7743732590529249,
+                            "uniqueID": 1741843902389,
+                            "ioValues": [
+                                {
+                                    "name": "x length",
+                                    "ioValue": 10
+                                },
+                                {
+                                    "name": "y length",
+                                    "ioValue": 5
+                                }
+                            ],
+                            "description": "Creates a new rectangle."
+                        },
+                        {
+                            "atomType": "Move",
+                            "name": "Move",
+                            "x": 0.20238095238095238,
+                            "y": 0.7715877437325905,
+                            "uniqueID": 1741843910602,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": 1741843902389
+                                },
+                                {
+                                    "name": "xDist",
                                     "ioValue": 0
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 0
+                                    "ioValue": -3
                                 },
                                 {
                                     "name": "zDist",
@@ -7014,15 +7138,34 @@
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
+                        },
+                        {
+                            "atomType": "Fusion",
+                            "name": "Fusion",
+                            "x": 0.24140211640211642,
+                            "y": 0.4958217270194986,
+                            "uniqueID": 1741843923086,
+                            "ioValues": [
+                                {
+                                    "name": "Shape 1",
+                                    "ioValue": 1741843623752
+                                },
+                                {
+                                    "name": "Shape 2",
+                                    "ioValue": 1741843910602
+                                }
+                            ],
+                            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
+                            "unionType": "Fusion"
                         }
                     ],
                     "allConnectors": [
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
+                            "ap2Name": "Shape 1",
+                            "ap2Primary": false,
                             "ap1ID": 1741843623752,
-                            "ap2ID": 1741843630603
+                            "ap2ID": 1741843923086
                         },
                         {
                             "ap1Name": "geometry",
@@ -7037,10 +7180,86 @@
                             "ap2Primary": true,
                             "ap1ID": 1741843661473,
                             "ap2ID": 1741843673716
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "Shape 2",
+                            "ap2Primary": false,
+                            "ap1ID": 1741843673716,
+                            "ap2ID": 1741843784664
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1741843717231,
+                            "ap2ID": 1741843747314
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "Shape 1",
+                            "ap2Primary": false,
+                            "ap1ID": 1741843747314,
+                            "ap2ID": 1741843784664
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 1741843784664,
+                            "ap2ID": 1741843586326
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "inputShape",
+                            "ap2Primary": false,
+                            "ap1ID": 1741843784664,
+                            "ap2ID": 1741843867438
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1741843902389,
+                            "ap2ID": 1741843910602
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "Shape 2",
+                            "ap2Primary": false,
+                            "ap1ID": 1741843910602,
+                            "ap2ID": 1741843923086
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1741843923086,
+                            "ap2ID": 1741843630603
                         }
                     ],
                     "fileTypeVersion": 1,
-                    "compiledBom": {}
+                    "compiledBom": []
+                },
+                {
+                    "atomType": "Code",
+                    "name": "Code",
+                    "x": 0.5178571428571428,
+                    "y": 0.48467966573816157,
+                    "uniqueID": 1741843862751,
+                    "ioValues": [
+                        {
+                            "name": "inputShape",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "radius",
+                            "ioValue": 10
+                        }
+                    ],
+                    "description": "Defines a Replicad code block.",
+                    "codeVersion": 1,
+                    "code": " \n      //Inputs:[inputShape, radius]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n      \n      //Takes the address and gets the shape from the library\n      let importedShape = library[inputShape]\n      \n      //This makes a new copy of of the shape (to prevent garbage collection issues),\n      //and moves it in the X direction. Note that this will not work if the input is an assembly\n      let movedShape = importedShape.geometry[0].clone().fillet(radius)\n      \n      //Console.log works for debugging to better see what is happening under the hood\n      console.log(\"Shape:\")\n      console.log(importedShape);\n      \n      //Shapes stored in the library have tags, a color, a plane, and a bill of materials like this. We don't modify them here\n      let shape1 = {\n        geometry: [movedShape],\n        tags: importedShape.tags,\n        color: importedShape.color,\n        plane: importedShape.plane,\n        bom: importedShape.bom\n      }\n      \n      //We could at this point return shape1 as a complete shape and it will be automatically written to the library for us\n      return shape1\n      "
                 }
             ],
             "allConnectors": [],
