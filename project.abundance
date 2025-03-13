@@ -6550,7 +6550,7 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.5271164021164021,
+                    "x": 0.5171957671957672,
                     "y": 0.13370473537604458,
                     "uniqueID": 1741833034384,
                     "ioValues": [
@@ -6757,6 +6757,26 @@
                     "resolution": 96,
                     "importIndex": 0,
                     "fileName": null
+                },
+                {
+                    "atomType": "Code",
+                    "name": "Code",
+                    "x": 0.4034391534391535,
+                    "y": 0.5264623955431754,
+                    "uniqueID": 1741845077813,
+                    "ioValues": [
+                        {
+                            "name": "inputShape",
+                            "ioValue": 1741833024844
+                        },
+                        {
+                            "name": "radius",
+                            "ioValue": 2
+                        }
+                    ],
+                    "description": "Defines a Replicad code block.",
+                    "codeVersion": 1,
+                    "code": " \n      //Inputs:[inputShape, radius]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n      \n      //Takes the address and gets the shape from the library\n      let importedShape = library[inputShape]\n      \n      //This makes a new copy of of the shape (to prevent garbage collection issues),\n      //and moves it in the X direction. Note that this will not work if the input is an assembly\n      let movedShape = importedShape.geometry[0].clone().fillet(radius, (e) => e.inPlane(\"XY\", 20))\n      \n      //Console.log works for debugging to better see what is happening under the hood\n      console.log(\"Shape:\")\n      console.log(importedShape);\n      \n      //Shapes stored in the library have tags, a color, a plane, and a bill of materials like this. We don't modify them here\n      let shape1 = {\n        geometry: [movedShape],\n        tags: importedShape.tags,\n        color: importedShape.color,\n        plane: importedShape.plane,\n        bom: importedShape.bom\n      }\n      \n      //We could at this point return shape1 as a complete shape and it will be automatically written to the library for us\n      return shape1\n      "
                 }
             ],
             "allConnectors": [
@@ -6794,6 +6814,13 @@
                     "ap2Primary": true,
                     "ap1ID": 1741833024844,
                     "ap2ID": 1741833034384
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "inputShape",
+                    "ap2Primary": false,
+                    "ap1ID": 1741833024844,
+                    "ap2ID": 1741845077813
                 },
                 {
                     "ap1Name": "geometry",
