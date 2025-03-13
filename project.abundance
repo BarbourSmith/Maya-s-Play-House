@@ -6894,8 +6894,8 @@
         {
             "atomType": "Molecule",
             "name": "Door Latch",
-            "x": 0.8326719576719576,
-            "y": 0.8050139275766017,
+            "x": 0.8339947089947091,
+            "y": 0.8105849582172702,
             "uniqueID": 1741843538718,
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -6918,8 +6918,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Latch Side",
-                    "x": 0.3723544973544973,
-                    "y": 0.6963788300835655,
+                    "x": 0.37632275132275134,
+                    "y": 0.7103064066852367,
                     "uniqueID": 1741843586024,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -8845,11 +8845,11 @@
                                         },
                                         {
                                             "name": "xDist",
-                                            "ioValue": 0
+                                            "ioValue": 7.5
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": 0
+                                            "ioValue": 3
                                         },
                                         {
                                             "name": "zDist",
@@ -8861,8 +8861,8 @@
                                 {
                                     "atomType": "Move",
                                     "name": "Move",
-                                    "x": 0.5072751322751323,
-                                    "y": 0.6434540389972144,
+                                    "x": 0.5066137566137566,
+                                    "y": 0.6545961002785515,
                                     "uniqueID": 1741876351308,
                                     "ioValues": [
                                         {
@@ -8875,7 +8875,7 @@
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": -1
+                                            "ioValue": 0
                                         },
                                         {
                                             "name": "zDist",
@@ -10258,8 +10258,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.46230158730158727,
-                    "y": 0.3231197771587744,
+                    "x": 0.4715608465608465,
+                    "y": 0.4345403899721449,
                     "uniqueID": 1741844360092,
                     "ioValues": [
                         {
@@ -10284,8 +10284,8 @@
                 {
                     "atomType": "ExtractTag",
                     "name": "Extract Tag",
-                    "x": 0.7083333333333333,
-                    "y": 0.7353760445682451,
+                    "x": 0.7136243386243386,
+                    "y": 0.7493036211699164,
                     "uniqueID": 1741844447565,
                     "ioValues": [
                         {
@@ -10296,6 +10296,66 @@
                     "description": "Extracts geometry containing the specified tag.",
                     "tag": "Door Side",
                     "tagIndex": 2
+                },
+                {
+                    "atomType": "Export",
+                    "name": "Export",
+                    "x": 0.8525132275132274,
+                    "y": 0.6935933147632313,
+                    "uniqueID": 1741876546470,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1741844447565
+                        },
+                        {
+                            "name": "Resolution (dpi)",
+                            "ioValue": 96
+                        },
+                        {
+                            "name": "Part Name",
+                            "ioValue": "Door Latch"
+                        },
+                        {
+                            "name": "File Type",
+                            "ioValue": "STL"
+                        }
+                    ],
+                    "description": "Export Atom, let's you choose a type of file to Export.",
+                    "type": null,
+                    "resolution": 96,
+                    "importIndex": 0,
+                    "fileName": null
+                },
+                {
+                    "atomType": "Export",
+                    "name": "Export",
+                    "x": 0.5542328042328043,
+                    "y": 0.7938718662952646,
+                    "uniqueID": 1741876557449,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1741843586024
+                        },
+                        {
+                            "name": "Resolution (dpi)",
+                            "ioValue": 96
+                        },
+                        {
+                            "name": "Part Name",
+                            "ioValue": "Door Latch"
+                        },
+                        {
+                            "name": "File Type",
+                            "ioValue": "STL"
+                        }
+                    ],
+                    "description": "Export Atom, let's you choose a type of file to Export.",
+                    "type": null,
+                    "resolution": 96,
+                    "importIndex": 0,
+                    "fileName": null
                 }
             ],
             "allConnectors": [
@@ -10305,6 +10365,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1741843586024,
                     "ap2ID": 1741844198872
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1741843586024,
+                    "ap2ID": 1741876557449
                 },
                 {
                     "ap1Name": "geometry",
@@ -10333,6 +10400,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1741844360092,
                     "ap2ID": 1741844198872
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1741844447565,
+                    "ap2ID": 1741876546470
                 }
             ],
             "fileTypeVersion": 1,
