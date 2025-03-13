@@ -6956,13 +6956,13 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.30092592592592593,
-                            "y": 0.30919220055710306,
+                            "x": 0.3082010582010582,
+                            "y": 0.479108635097493,
                             "uniqueID": 1741843630603,
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": 1741843923086
+                                    "ioValue": 1741875777344
                                 },
                                 {
                                     "name": "height",
@@ -7063,17 +7063,17 @@
                         {
                             "atomType": "Code",
                             "name": "Code",
-                            "x": 0.8458994708994709,
-                            "y": 0.6183844011142061,
+                            "x": 0.3941798941798942,
+                            "y": 0.20055710306406688,
                             "uniqueID": 1741843867438,
                             "ioValues": [
                                 {
                                     "name": "inputShape",
-                                    "ioValue": 1741843784664
+                                    "ioValue": 1741843630603
                                 },
                                 {
                                     "name": "radius",
-                                    "ioValue": 10
+                                    "ioValue": 1
                                 }
                             ],
                             "description": "Defines a Replicad code block.",
@@ -7125,25 +7125,6 @@
                             "description": "Moves a shape laterally in X, Y, Z."
                         },
                         {
-                            "atomType": "Fusion",
-                            "name": "Fusion",
-                            "x": 0.24140211640211642,
-                            "y": 0.4958217270194986,
-                            "uniqueID": 1741843923086,
-                            "ioValues": [
-                                {
-                                    "name": "Shape 1",
-                                    "ioValue": 1741843623752
-                                },
-                                {
-                                    "name": "Shape 2",
-                                    "ioValue": 1741843910602
-                                }
-                            ],
-                            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
-                            "unionType": "Fusion"
-                        },
-                        {
                             "atomType": "Circle",
                             "name": "Circle",
                             "x": 0.30423280423280424,
@@ -7188,7 +7169,7 @@
                                 },
                                 {
                                     "name": "geometry1",
-                                    "ioValue": 1741843630603
+                                    "ioValue": 1741843867438
                                 }
                             ],
                             "description": "Subtracts shape two from shape one."
@@ -7752,22 +7733,56 @@
                             "unitsKey": "MM",
                             "fileTypeVersion": 1,
                             "compiledBom": []
+                        },
+                        {
+                            "atomType": "ShrinkWrap",
+                            "name": "Shrink Wrap",
+                            "x": 0.1898148148148148,
+                            "y": 0.29526462395543174,
+                            "uniqueID": 1741875777344,
+                            "ioValues": [
+                                {
+                                    "name": "Shape 1",
+                                    "ioValue": 1741843910602
+                                },
+                                {
+                                    "name": "Shape 2",
+                                    "ioValue": 1741843623752
+                                },
+                                {
+                                    "name": "Shape 3",
+                                    "ioValue": ""
+                                },
+                                {
+                                    "name": "Shape 1",
+                                    "ioValue": 1741843910602
+                                },
+                                {
+                                    "name": "Shape 2",
+                                    "ioValue": 1741843623752
+                                },
+                                {
+                                    "name": "Shape 3",
+                                    "ioValue": ""
+                                }
+                            ],
+                            "description": "Joins two or more drawings into a single sketch by filling in the space between them. Also called 'hull'"
                         }
                     ],
                     "allConnectors": [
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "Shape 1",
+                            "ap2Name": "Shape 2",
                             "ap2Primary": false,
                             "ap1ID": 1741843623752,
-                            "ap2ID": 1741843923086
+                            "ap2ID": 1741875777344
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "geometry1",
+                            "ap2Name": "inputShape",
                             "ap2Primary": false,
                             "ap1ID": 1741843630603,
-                            "ap2ID": 1741844133101
+                            "ap2ID": 1741843867438
                         },
                         {
                             "ap1Name": "geometry",
@@ -7799,10 +7814,10 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "inputShape",
+                            "ap2Name": "geometry1",
                             "ap2Primary": false,
-                            "ap1ID": 1741843784664,
-                            "ap2ID": 1741843867438
+                            "ap1ID": 1741843867438,
+                            "ap2ID": 1741844133101
                         },
                         {
                             "ap1Name": "geometry",
@@ -7813,17 +7828,10 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "Shape 2",
+                            "ap2Name": "Shape 1",
                             "ap2Primary": false,
                             "ap1ID": 1741843910602,
-                            "ap2ID": 1741843923086
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 1741843923086,
-                            "ap2ID": 1741843630603
+                            "ap2ID": 1741875777344
                         },
                         {
                             "ap1Name": "geometry",
@@ -7852,6 +7860,13 @@
                             "ap2Primary": true,
                             "ap1ID": 1741844166576,
                             "ap2ID": 1741843747314
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1741875777344,
+                            "ap2ID": 1741843630603
                         }
                     ],
                     "fileTypeVersion": 1,
