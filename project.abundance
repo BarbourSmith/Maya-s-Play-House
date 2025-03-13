@@ -6447,7 +6447,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1741832982138,
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1741843136567
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -6581,7 +6586,7 @@
                         },
                         {
                             "name": "radius",
-                            "ioValue": 10
+                            "ioValue": 2
                         }
                     ],
                     "description": "Defines a Replicad code block.",
@@ -6726,8 +6731,8 @@
                 {
                     "atomType": "Export",
                     "name": "Export",
-                    "x": 0.8921957671957672,
-                    "y": 0.7437325905292479,
+                    "x": 0.8955026455026456,
+                    "y": 0.766016713091922,
                     "uniqueID": 1741843520265,
                     "ioValues": [
                         {
@@ -6907,12 +6912,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1741843537919,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": 1741844198872
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -6931,12 +6931,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1741843586326,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": 1741876149942
-                                }
-                            ],
+                            "ioValues": [],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -7073,7 +7068,7 @@
                                 },
                                 {
                                     "name": "radius",
-                                    "ioValue": 1
+                                    "ioValue": 10
                                 }
                             ],
                             "description": "Defines a Replicad code block.",
@@ -9146,12 +9141,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1741844229067,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": 1741844424335
-                                }
-                            ],
+                            "ioValues": [],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -9292,7 +9282,7 @@
                                 },
                                 {
                                     "name": "radius",
-                                    "ioValue": 1
+                                    "ioValue": 10
                                 }
                             ],
                             "description": "Defines a Replicad code block.",
