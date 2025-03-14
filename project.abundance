@@ -6899,8 +6899,8 @@
         {
             "atomType": "Molecule",
             "name": "Door Latch",
-            "x": 0.8339947089947091,
-            "y": 0.8105849582172702,
+            "x": 0.8373015873015873,
+            "y": 0.8050139275766017,
             "uniqueID": 1741843538718,
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -6912,7 +6912,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1741843537919,
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1741844198872
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -6931,7 +6936,12 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1741843586326,
-                            "ioValues": [],
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": 1741876149942
+                                }
+                            ],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -7068,7 +7078,7 @@
                                 },
                                 {
                                     "name": "radius",
-                                    "ioValue": 10
+                                    "ioValue": 2
                                 }
                             ],
                             "description": "Defines a Replicad code block.",
@@ -7122,13 +7132,13 @@
                         {
                             "atomType": "Circle",
                             "name": "Circle",
-                            "x": 0.30423280423280424,
-                            "y": 0.8384401114206128,
+                            "x": 0.3108465608465608,
+                            "y": 0.8467966573816156,
                             "uniqueID": 1741844102663,
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 6
+                                    "ioValue": 6.3
                                 }
                             ],
                             "description": "Creates a new circle."
@@ -9141,7 +9151,12 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1741844229067,
-                            "ioValues": [],
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": 1741844424335
+                                }
+                            ],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -9282,7 +9297,7 @@
                                 },
                                 {
                                     "name": "radius",
-                                    "ioValue": 10
+                                    "ioValue": 2
                                 }
                             ],
                             "description": "Defines a Replicad code block.",
@@ -9336,13 +9351,13 @@
                         {
                             "atomType": "Circle",
                             "name": "Circle",
-                            "x": 0.30423280423280424,
-                            "y": 0.8384401114206128,
+                            "x": 0.2996031746031746,
+                            "y": 0.8607242339832869,
                             "uniqueID": 1741844229238,
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 6
+                                    "ioValue": 6.3
                                 }
                             ],
                             "description": "Creates a new circle."
