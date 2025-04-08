@@ -1449,8 +1449,7 @@
                             "description": "Tags geometry so that it can be extracted later.",
                             "tags": [
                                 ""
-                            ],
-                            "cutTag": false
+                            ]
                         }
                     ],
                     "allConnectors": [
@@ -3674,8 +3673,7 @@
                     "tags": [
                         "cutLayout",
                         ""
-                    ],
-                    "cutTag": true
+                    ]
                 },
                 {
                     "atomType": "Difference",
@@ -4839,8 +4837,7 @@
                     "tags": [
                         "cutLayout",
                         ""
-                    ],
-                    "cutTag": true
+                    ]
                 }
             ],
             "allConnectors": [
@@ -4952,8 +4949,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.44156928213689484,
-            "y": 0.44011142061281333,
+            "x": 0.4411375661375661,
+            "y": 0.4902506963788301,
             "uniqueID": 1732594489979,
             "ioValues": [
                 {
@@ -5621,8 +5618,7 @@
                     "description": "Tags geometry so that it can be extracted later.",
                     "tags": [
                         ""
-                    ],
-                    "cutTag": true
+                    ]
                 }
             ],
             "allConnectors": [
@@ -5668,8 +5664,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.3739565943238731,
-            "y": 0.6824512534818942,
+            "x": 0.3835978835978836,
+            "y": 0.6601671309192201,
             "uniqueID": 1732594771405,
             "ioValues": [
                 {
@@ -5720,7 +5716,7 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.3889816360601001,
+            "x": 0.38227513227513227,
             "y": 0.8690807799442898,
             "uniqueID": 1732595091458,
             "ioValues": [
@@ -5797,13 +5793,13 @@
             "type": null,
             "resolution": 72,
             "importIndex": 0,
-            "fileName": null
+            "partName": "Maya-s-Play-House"
         },
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.7248677248677249,
-            "y": 0.4735376044568245,
+            "x": 0.7347883597883599,
+            "y": 0.5097493036211699,
             "uniqueID": 1738285957674,
             "ioValues": [
                 {
@@ -6270,7 +6266,7 @@
                     "type": null,
                     "resolution": 96,
                     "importIndex": 0,
-                    "fileName": null
+                    "partName": "Corner Angle"
                 }
             ],
             "allConnectors": [
@@ -6750,7 +6746,7 @@
                     "type": null,
                     "resolution": 96,
                     "importIndex": 0,
-                    "fileName": null
+                    "partName": "Guard"
                 },
                 {
                     "atomType": "Code",
@@ -10004,8 +10000,7 @@
                             "description": "Tags geometry so that it can be extracted later.",
                             "tags": [
                                 "Door Side"
-                            ],
-                            "cutTag": false
+                            ]
                         },
                         {
                             "atomType": "Move",
@@ -10309,7 +10304,7 @@
                     "type": null,
                     "resolution": 96,
                     "importIndex": 0,
-                    "fileName": null
+                    "partName": "Door Latch"
                 },
                 {
                     "atomType": "Export",
@@ -10339,7 +10334,7 @@
                     "type": null,
                     "resolution": 96,
                     "importIndex": 0,
-                    "fileName": null
+                    "partName": "Door Latch"
                 }
             ],
             "allConnectors": [
